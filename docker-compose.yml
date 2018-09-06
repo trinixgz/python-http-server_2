@@ -1,7 +1,7 @@
 ---
 version: "3.7"
 services:
-  python-http-server:
+  python-http-server_2:
     build: .
     ports:
     - "9000:9000"
