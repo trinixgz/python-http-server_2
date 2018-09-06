@@ -1,0 +1,10 @@
+[Unit]
+Description=Python HTTP Server
+
+[Service]
+User=jenkins
+WorkingDirectory=/opt/python-systemd-http-server_2/public
+ExecStart=/opt/python-systemd-http-server_2/app.py
+
+[Install]
+WantedBy=multi-user.target
